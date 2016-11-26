@@ -2,6 +2,9 @@
 # Print a version string.
 scriptversion=2012-09-25.20
 
+echo "v9.0" | tr -d '\012'
+exit 0
+
 # Copyright (C) 2007-2008 Free Software Foundation
 #
 # This program is free software; you can redistribute it and/or modify
